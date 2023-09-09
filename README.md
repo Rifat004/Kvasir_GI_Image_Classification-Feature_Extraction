@@ -41,3 +41,5 @@ I enabled mixed-precision training by setting the precision to "16-mixed". This 
 ## Conclusion:
 
 This project demonstrates the entire workflow of building a deep learning model in PyTorch Lightning framework. The achieved accuracy on the testing dataset reflects the models capability to generalize and classify images accurately. I have compared accuracy of two variants of mobileOne model (s3 and s4). Among the models, mobileone_s4 achieved slighlty more accuracy than s3 variant. But, s3 variant has less parameters. So, it is more memory efficient.
+
+Note: I have added code feature extraction. I will try to perform traditional ml techniques on extracted feature.
